@@ -1,0 +1,584 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Required for all the web pages-->
+  <meta name="description" value="This is description of a webpage">
+  <meta name="image" value="https://someimage.com/sth.png">
+  <meta name="title" value ="CSIT 2024">
+  <meta name="theme-color" content="#b71d1c"/>
+  <!--Required for sharing across social media platform-->
+  <meta property="og:image" content="https://someimage.com/sth.png">
+    <meta property ="og:title" content="CSIT 2024">
+    <meta property="og:description" content="Hands-on implementation of CSIT syllabus">
+     <!--Required for sharing across twitter-->
+    <meta property="twitter:image" content="https://someimage.com/sth.png">
+    <meta property ="twitter:title" content="CSIT 2024">
+    <meta property="twitter:description" content="Hands-on implementation of CSIT syllabus">
+
+    <title>Hello World</title>
+    <style>
+        /* css to make a div circle */
+        .circle{
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            background: green;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            color: white;
+
+            
+        }
+        #student{
+            color: red;
+
+        }
+
+        .image{
+            background-repeat:no-repeat ;
+            background-size: cover !important;
+        }
+
+        body{
+          display: flex;
+          flex-direction: column-reverse;
+        }
+        table{
+          border-collapse: collapse;
+          width: 600px;
+          text-align: center;
+        }
+        table,th,tr,td{
+          border: 1px solid black;
+        }
+        tr:nth-child(even){
+          background: lightgrey;
+        }
+.bank-form{
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  gap: 10px;
+}
+.bank-form input{
+  padding: 10px;
+  border: 1px solid rgb(38, 42, 86);
+  border-radius :6px;
+}
+.bank-form button{
+  background: rgb(166, 177, 159);
+  color:white;
+  padding:10px;
+}
+header{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+    nav ul{
+        list-style-type: none;
+        display: flex;
+        gap: 10px;
+    }
+    nav a{
+        color: aqua;
+        text-decoration: none;
+    }
+
+    nav ul a:hover{
+        text-decoration: underline;
+    }
+
+aside{
+          background: lightblue;
+          width: 20%;
+          padding: 10px;
+          float:right;
+        }
+    </style>
+</head>
+
+<body>
+  <header>
+    <img src="https://img.freepik.com/free-vector/bird-colorful-logo-gradient-vector_343694-1365.jpg?size=338&ext=jpg&ga=GA1.1.553209589.1714521600&semt=sph"
+        width="60" height="40" alt="logo">
+    <h2>FUNNY</h2>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+ <!-- fieldset for every single day -->
+    <button onclick=""></button>
+ <section>
+      <fieldset>
+          <legend> 23april,2024 </legend>
+          <!-- There should be always one h1 tag in a web page -->
+          <h1>Main heading</h1>
+          <h2>heading 2</h2>
+          <h3>heading 3</h3>
+          <h4>heading 4</h4>
+          <h5>heading 5</h5>
+          <h6>heading 6</h6>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos molestias quas ipsam vel blanditiis repellendus sapiente nemo iusto voluptatem, corrupti ut cupiditate officiis asperiores similique tempora temporibus eveniet ducimus illo?
+          </p>
+
+          <span>Hi I am Savyata.</span>
+          <span>Hi I am Savyata.</span>
+        
+          <!-- To select class in css use "." -->
+          <div class="circle">
+            S
+          </div>
+          <div>
+            Savyata
+          </div>
+          <!-- To select id in css use "#" -->
+          <div id="student">
+            Savu
+          </div>
+          <div class="image" style="width: 300px;
+          height:300px;
+          background-size: contain;
+          background: url(https://lh3.googleusercontent.com/2Glig-YXcE8GLTBTXP1DNnICG7ItFaiYiSbDKLQ371p3skv8Py1wKtouFMyv-s6s3k3wK98TZkE9q1oNkUbQBfuFhEaokVVqAcwL=s1024) no-repeat";>
+          </div>
+          <hr>
+          <div style="display:grid ;gap: 10px">
+            <h2>Text formatting</h2>
+            <b>This is bold text using b tag</b>
+            <l>This is italic text using i tag</l>
+            <u>This is underline tag using u tag</u>
+            <span>
+                (a+b)<sup>2</sup>
+                <!-- super script -->
+            </span>
+            <span id="sulphuric">
+                H<sub>2</sub>SO<sub>4</sub>
+                <!-- sub script -->
+            </span>
+        </div>
+    </fieldset>
+    </section>
+    <section>
+            <fieldset>
+              <legend>24th, april(small;Pre,br;formatting text phrases;spanmstrong,tt)</legend>
+              <div style="display: flex; flex-direction: column;">
+                <small>This is small text</small>
+            <span>
+              <pre>
+               Hi i am Savyata.
+               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas sunt porro et obcaecati totam quia quo, odio quos quidem, fugit ut sequi ipsa molestiae asperiores cupiditate aliquam! Mollitia, aliquid doloribus.
+                </pre>
+            </span>
+        
+            <pre>
+              Hi i am Savyata.
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim illo maiores odio impedit voluptatum sapiente. Earum beatae quaerat tempore molestiae alias doloribus, quibusdam consequuntur quae ipsa, vitae asperiores reiciendis quidem!
+            </pre>
+            <!-- This is strong tag used for making accessible website -->
+            <strong>
+              I am strong.
+            </strong>
+            <b>
+              I am strong.
+            </b>
+<!-- This is html4 tag and already depricated -->
+            <tt>
+              TT tag
+            </tt>
+
+            <code>
+                console.log("Hello World!")
+            </code>
+            <!-- <img src="https://lh3.googleusercontent.com/2Glig-YXcE8GLTBTXP1DNnICG7ItFaiYiSbDKLQ371p3skv8Py1wKtouFMyv-s6s3k3wK98TZkE9q1oNkUbQBfuFhEaokVVqAcwL=s1024" 
+            alt="Human"
+            width="300px"
+            height="300px"
+            onerror="alert('error')"
+            > -->
+            <img src="https://lh3.googleusercontent55.com/2Glig-YXcE8GLTBTXP1DNnICG7ItFaiYiSbDKLQ371p3skv8Py1wKtouFMyv-s6s3k3wK98TZkE9q1oNkUbQBfuFhEaokVVqAcwL=s1024" 
+            alt="Human"
+            width="300px"
+            height="300px"
+            onerror="this.src='https://t4.ftcdn.net/jpg/01/24/08/83/360_F_124088300_MGdzBZvOp3LjdxN7eNK57oRO7fGkIPLU.jpg'"
+            >
+            <a href="#sulfuric">
+              Go to H2SO4
+            </a>
+
+              <a href="https://www.google.com/">
+              Go to google
+        </a>
+            <a target="_blank" href="https://www.google.com/">
+              Go to google in different tab
+            </a>
+            <a href="tel:+9779840090011">9736563577</a>
+            <a href="mailto: savyatabhattarai@gmail.com; subject: request for sth">savyatabhattarai@gmail.com</a>
+            <div style="display: flex; flex-direction: column;">
+            <ul style="list-style-type: square;">
+            <li>Eat</li>
+            <li>sleep</li>
+            <li>Code</li>
+            <li>Repeat</li>
+            <li>Wake</li>
+            </ul>
+            <!-- Ordered lisy -->
+            <ol style="list-style-type: circle;">
+            <li>Hello</li>
+            <li>Hi</li>
+          </ol>
+          </div>
+          </div>
+        </div>
+    </fieldset>
+</section>
+
+<section>
+    <fieldset>
+      <legend>25th, april(Html table)</legend>
+      <table>
+        <thead>
+          <tr>
+            <th>SN</th>
+            <th>Name</th>
+            <th>Roll</th>
+            <th>Course</th>
+          </tr>
+
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Ram</td>
+            <td rowspan="2">CSIT</td>
+            <td>100</td>
+          </tr>
+
+          <tr>
+            <td>2</td>
+            <td>Shyam</td>
+            
+            <td>101</td>
+          </tr>
+
+          <tr>
+            <td>3</td>
+            <td>hari</td>
+            <td>BCA</td>
+            <td>102</td>
+          </tr>
+
+          <tr>
+            <td>4</td>
+            <td>hello</td>
+            <td>CSIT</td>
+            <td>103</td>
+          </tr>
+
+          <tr>
+            <td>5</td>
+            <td>sir</td>
+            <td>BCA</td>
+            <td>104</td>
+          </tr>
+
+
+        </tbody>
+      </table>
+
+      <h2>Table implementation of rowspan and colspan</h2>
+
+      <table>
+        <thead>
+          <tr>
+            <th>SN</th>
+            <th>Name</th>
+            <th>Roll</th>
+            <th>Course</th>
+          </tr>
+
+          
+
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td colspan="2">Ram</td>
+            
+            <td>100</td>
+          </tr>
+
+          <tr>
+            <td>2</td>
+            <td>Shyam</td>
+            <td>CSIT</td>
+            <td>101</td>
+          </tr>
+
+          <tr>
+            <td>3</td>
+            <td>Hari</td>
+            <td>CSIT</td>
+            <td>102</td>
+          </tr>
+
+          <tr>
+            <td>4</td>
+            <td>Sita</td>
+            <td>CSIT</td>
+            <td>103</td>
+          </tr>
+
+          <tr>
+            <td>5</td>
+            <td>Rahul</td>
+            <td>CSIT</td>
+            <td>104</td>
+          </tr>
+
+
+        </tbody>
+      </table>
+
+
+      
+      <table>
+        <thead>
+          <tr>
+            <th>Time&day</th>
+            <th>6:30-7:30</th>
+            <th>7:30-8:30</th>
+            <th>8:30-9:30</th>
+            <th>9:30-10:00</th>
+            <th>10:00-11:00</th>
+            <th>11:00-12:00</th>
+          </tr>
+
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Sunday</td>
+            <td>AI</td>
+            <td>DBMS</td>
+            <td>OS</td>
+            <td rowspan="6">
+              <pre>
+B 
+R 
+E 
+A 
+K 
+              </pre>
+            </td>
+            <td>CN</td>
+            <td>Project</td>
+          </tr>
+
+          <tr>
+            <td>Monday</td>
+            <td>AI</td>
+            <td>DBMS</td>
+            <td>OS</td>
+            <td>CN</td>
+            <td>Project</td>
+          </tr>
+
+          <tr>
+            <td>Tuesday</td>
+            <td>AI</td>
+            <td>DBMS</td>
+            <td>TOC</td>
+            <td>CN</td>
+            <td>Project</td>
+          </tr>
+
+          <tr>
+            <td>Wednesday</td>
+            <td>AI</td>
+            <td>DBMS</td>
+            <td>TOC</td>
+            <td>CN</td>
+            <td>CN
+          </tr>
+
+          <tr>
+            <td>Thursday</td>
+            <td>AI</td>
+            <td>DBMS</td>
+            <td>TOC</td>
+            <td>OS</td>
+            <td>CN
+          </tr>
+
+          <tr>
+            <td>Friday</td>
+            <td>AI</td>
+            <td>DBMS</td>
+            <td>TOC</td>           
+            <td>OS</td>
+            <td>CN</td>
+          </tr>
+        </tbody>
+      </table>
+    </fieldset>
+</section>
+
+
+<section>
+    <fieldset>
+      <h2>iframe</h2>
+      <iframe width="50%"
+      height="500px"
+      src="https://www.dainiknepal.com/"
+      frameborder="0">
+        
+       </iframe>
+    </fieldset>
+    <fieldset>
+      <legend>26th April,2024(Forms)</legend>
+        <h2>Forms</h2>
+        <form class="bank-form" id="customerForm">
+            <label for="photo">Upload your photo</label>
+            <input required type="file" name="" id="Photo">
+            <input required type="text" placeholder="Name">
+            <input id="name" required type="number" placeholder="Age">
+            <input id="phoneNo" required type="text" placeholder="Phone Number">
+            <input id="dob" type="date" placeholder="DOB">
+            <input id="favColor" type="color" placeholder="Color">
+            <select name="" id="">
+                <option value="">MALE</option>
+                <option value="">FEMALE</option>
+                <option value="">OTHERS</option>
+            </select>
+            <h3>Receive alerts in email and phone</h3>
+            <div>
+                <label for="">Email</label>
+                <input id="email-opt" type="checkbox" placeholder="Email">
+            </div>
+            <div>
+                <label for="">Phone</label>
+                <input id="phone-opt" type="checkbox" placeholder="Phone">
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </fieldset>
+    <section>
+
+      <section>
+    <fieldset>
+      <legend>28th april(audio,video,canvas) </legend>
+      <div>
+        <audio autoplay controls>
+          <source src="https://www.w3schools.com/html/horse.ogg"
+          type="audio/ogg"/>
+        </audio>
+        <video width="300px" height="300px" controls
+        autoplay="false" controls     
+        poster="https://lh3.googleusercontent.com/2Glig-YXcE8GLTBTXP1DNnICG7ItFaiYiSbDKLQ371p3skv8Py1wKtouFMyv-s6s3k3wK98TZkE9q1oNkUbQBfuFhEaokVVqAcwL=s1024" loop preload>
+          <source src ="https://www.w3schools.com/html/mov_bbb.mp4"
+          type="video/mp4"/>
+        </video>
+        <canvas id="image">
+          <img src="https://lh3.googleusercontent.com/2Glig-YXcE8GLTBTXP1DNnICG7ItFaiYiSbDKLQ371p3skv8Py1wKtouFMyv-s6s3k3wK98TZkE9q1oNkUbQBfuFhEaokVVqAcwL=s1024"
+              alt="Human" width="300px" height="300px">
+      </canvas>
+        <div role="article">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore ipsum vel, molestiae quisquam neque facere qui deleniti aut dignissimos deserunt, amet nulla distinctio! Possimus perspiciatis aut enim tenetur dolores suscipit!
+        </div>
+        <article>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quis dolore in ipsum ut, excepturi possimus delectus recusandae doloremque unde, odio necessitatibus vel! Libero aperiam, necessitatibus atque harum voluptas nam.
+          </p>
+        </article>
+      </div>
+    </fieldset>
+  </section>
+        <section>
+          <fieldset>
+              <legend>29 april,2024(Aside,footer,header,nav)</legend>
+              <article>
+                  <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur illo harum beatae voluptates
+                      perferendis sequi nihil ipsam minus voluptatum impedit tempora, atque labore, distinctio itaque,
+                      repellat et voluptatibus quisquam explicabo!
+                  </p>
+                  <aside>
+                      This is very funny text. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia maxime
+                      rem explicabo autem nam iste voluptatum tempore aliquid tenetur! Rerum nesciunt eius qui amet
+                      sapiente nihil at maxime esse laborum.
+                  </aside>
+                  <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam facilis similique nihil.
+                      Exercitationem dolore impedit incidunt possimus ipsam illum laborum? Aperiam molestiae sint
+                      nemo? Labore molestiae ipsum ratione nobis doloremque. Lorem ipsum dolor sit, amet consectetur
+                      adipisicing elit. Rerum quam eligendi dignissimos placeat blanditiis cupiditate molestias
+                      temporibus, at ad quas tempore. Facilis doloribus in velit maiores, totam ad corrupti
+                      dignissimos.
+                  </p>
+                  <div>
+                  <h3>Figure,Figcaption</h3>
+                  <figure>
+                      <img width="100" height="100" src="https://lh3.googleusercontent.com/2Glig-YXcE8GLTBTXP1DNnICG7ItFaiYiSbDKLQ371p3skv8Py1wKtouFMyv-s6s3k3wK98TZkE9q1oNkUbQBfuFhEaokVVqAcwL=s1024" alt="">
+                      <!-- to descrive image clearly we follow below -->
+                      <figcaption>This is a figure</figcaption>
+                  </figure>
+                  </div>
+              </article>
+              <h3>Events</h3>
+              <h4>Mouse Event</h4>
+              <button onclick="alert('clicked 1 time')">click me</button>
+              <button ondblclick="alert('clicked 2 time')">click me 2 times</button>
+              <div onmouseenter="console.log('mouse entered in a div')" onmouseleave="console.log('mouse left a div')">this is a div</div>
+              <div onscroll="console.log('user scrolled')" style="height: 100px; overflow: scroll;">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis pariatur quod similique quasi! Recusandae, expedita ut. Impedit iure sequi beatae possimus quia saepe, mollitia, odio veniam cum pariatur blanditiis harum!
+                  Dolore quam non dicta placeat! Praesentium, illum. Nulla ipsum nemo molestias cupiditate autem incidunt aliquam quos. Aperiam in reprehenderit saepe qui accusamus sit obcaecati voluptas reiciendis? Quam natus ut quae.
+                  Voluptate nemo porro neque asperiores animi, ad nesciunt perspiciatis quam? Labore temporibus, est sit quas similique, et ratione iure tempora explicabo nemo sed obcaecati ipsum debitis natus odit fugit earum!
+                  Repellendus nemo nulla eveniet illum, doloribus vitae, aliquam itaque, asperiores deserunt quis magni autem sapiente facere officiis dolorum natus veniam optio quas eius! Fugiat quia facilis dolorem! Suscipit, error illum. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci veniam ut sequi voluptatem nisi nihil labore aspernatur ullam, laborum consectetur assumenda odit eius, in modi eos libero! Libero, quo vero? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad neque numquam labore esse dolorem officia tenetur nemo sunt molestiae dolor rerum possimus sapiente, omnis exercitationem, consequatur nobis doloribus expedita enim.
+
+              </div>
+          </fieldset>
+      </section>
+
+        <section>
+  <fieldset>
+    <legend> 30th April(Keyboard events,from events,Window events)
+    </legend>
+    <div style="width:500px;display:flex;flex-direction:column;gap:10px">
+    <input placeholder="onchange" onchange ="console.log('1')" type="text">
+    <input placeholder="oninput" onchange ="console.log('input triggered')" type="text">
+    <input onkeypress ="console.log('key pressed')" type="text">
+    <input placeholder="key up/down" onkeydown="console.log('key down triggered')" type="text">
+    <!-- form events -->
+    <form onreset="alert('form is reset')"
+    onsubmit="alert('hello form is submitted')">
+    <input type="text">
+    <input type="text">
+    <input type="text">
+    <input type="text">
+    <button type="submit">Submit</button>
+    <button type="reset">reset</button>
+
+  </form>
+  </div>
+  </fieldset>
+</section>
+</main>
+<button onclick="window.scrollTo(0,0)">Go to top</button>
+<footer>Copyright 2024 Savyata Bhattarai</footer>
+    <script>
+      let form =document.getElementById('customerForm');
+      cForm.addEventListener('submit',(e)=>{
+        e.preventDefault();
+        console.log('here');
+      })
+    </script>
+</body>
+</html>
