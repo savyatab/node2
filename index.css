@@ -1,0 +1,32 @@
+.wrapper{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+.circle{
+    width :50px;
+    height:50px;
+     border-radius: 50%;
+    border:1px solid green;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(174, 134, 33);
+    color:rgb(145, 122, 136);
+}
+.square{
+    width :150px;
+    height:150px;
+    border:1px solid green;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background: blue;
+    color:yellow;
+}
+.wrapper .rect{
+    color:blue;
+}
+*:not(.rect, #square){
+    color:red !important;
+}
